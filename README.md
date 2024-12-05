@@ -1,13 +1,14 @@
 # Offline AI Chat (Ollama)
 
+![image](icon128.png)
 
 ## Usage
-This is a chrome extension. 
-## TS
-echo 'launchctl setenv OLLAMA_ORIGINS "chrome-extension://*"' >>  ~/.bash_profile
-launchctl setenv OLLAMA_ORIGINS "chrome-extension://*"
+Chrome extension.
+
+## Screenshots
 
 
-![screenshot1](/docs/screenshot1.jpg?raw=true)
 
-![screenshot2](/docs/screenshot2.jpg?raw=true)
+![screenshot1](/docs/screenshoot1.jpg)
+
+![screenshot2](/docs/screenshoot2.jpg)
