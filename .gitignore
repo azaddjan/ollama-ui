@@ -1,3 +1,5 @@
 *.pem
 dist/
 https-test/ssl
+/.idea/
+/Offline_AI_Chat.zip

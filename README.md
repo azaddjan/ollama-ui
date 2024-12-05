@@ -1,20 +1,13 @@
-# ollama-ui
+# Offline AI Chat (Ollama)
 
-Just a simple HTML UI for Ollama
-
-Now available as a chrome extension!
-https://chrome.google.com/webstore/detail/ollama-ui/cmgdpmlhgjhoadnonobjeekmfcehffco
 
 ## Usage
+This is a chrome extension. 
+## TS
+echo 'launchctl setenv OLLAMA_ORIGINS "chrome-extension://*"' >>  ~/.bash_profile
+launchctl setenv OLLAMA_ORIGINS "chrome-extension://*"
 
-```
-git clone https://github.com/ollama-ui/ollama-ui
-cd ollama-ui
-make
 
-open http://localhost:8000 # in browser
-```
+![screenshot1](/docs/screenshot1.jpg?raw=true)
 
-![screenshot1](/screenshot1.jpg?raw=true)
-
-![screenshot2](/screenshot2.jpg?raw=true)
+![screenshot2](/docs/screenshot2.jpg?raw=true)
